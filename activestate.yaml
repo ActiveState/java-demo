@@ -1,1 +1,11 @@
-project: https://platform.activestate.com/ActiveStateLE/java-demo?branch=main&commitID=e344c532-eb6e-4192-a598-bcf6e0046291
+project: https://platform.activestate.com/ActiveStateLE/java-demo-iter?branch=main&commitID=70589cd1-8e98-4f65-b5a4-0b3c7d14f14a
+events:
+  - name: activate
+    value: bomgen
+  - name: after-command
+    scope: ["pull", "install"]
+    value: bomgen
+scripts:
+  - name: bomgen
+    language: bash
+    value: python3 bomgen.py

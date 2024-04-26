@@ -27,7 +27,7 @@
     <dependencies>
       <dependency>
         <groupId>com.activestate.platform.project</groupId>
-        <artifactId>java-demo-iter-bom</artifactId>
+        <artifactId>java-demo-bom</artifactId>
         <version>1.0.0</version>
         <type>pom</type>
         <scope>import</scope>

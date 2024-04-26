@@ -1,4 +1,4 @@
-project: https://platform.activestate.com/ActiveStateLE/java-demo?branch=main&commitID=e5c3a17b-b8d8-4f95-b575-158ef58669dd
+project: https://platform.activestate.com/ActiveStateLE/java-demo?branch=main&commitID=21eb8c1c-eda9-49be-a825-467700751871
 events:
   - name: activate
     value: bomgen

@@ -1,4 +1,4 @@
-project: https://platform.activestate.com/ActiveStateLE/java-demo-iter?branch=main&commitID=70589cd1-8e98-4f65-b5a4-0b3c7d14f14a
+project: https://platform.activestate.com/ActiveStateLE/java-demo-iter?branch=main&commitID=f13d40b3-fdd4-460f-af5a-730c112c5919
 events:
   - name: activate
     value: bomgen
@@ -8,4 +8,4 @@ events:
 scripts:
   - name: bomgen
     language: bash
-    value: python3 bomgen.py
+    value: python3 bomgen.py $project.name()
